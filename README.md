@@ -5,3 +5,6 @@
 
 # FastAPI & Airtable on Heroku via Github
 Learn how to integrate a minimal FastAPI project with Airtable as our data store.
+
+# Visit the website and test the app
+https://fastapi-airtable-1.herokuapp.com/

@@ -8,5 +8,3 @@ uvicorn src.app:app --reload --port 3000
 # heroku logs -a fastapi-airtable-1
 # * How to set Config Vars / Environment Vars in Heroku from CLI
 # heroku config:set AIRTABLE_TABLE_NAME="fastapi-to-airtable" -a fastapi-airtable-1
-
-
