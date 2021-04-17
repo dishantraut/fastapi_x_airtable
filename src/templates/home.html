@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<br>
+{% if submitted_email and user_id and did_send %}
+    <b>Thank You for joining :-</b>
+    <p>{{ user_id }} = {{ submitted_email }}</p>
+{% else %}
+    <b>Submission not done ...!!</b>
+    <p>User Email & User ID Not Found</p>
+{% endif %}
+
+<br>
+<h1>Hello, FastAPI..!</h1>
+<br>
+
+<form action="" method="POST">
+    <input type="text" name="user_name" placeholder="Your FirstName.." required>
+    <br><br>
+    <input type="email" name="email" placeholder="Your EmailID..." required>
+    <br><br>
+    <input type="submit" value="Join waitlist">
+</form>
+
+{% endblock %}
