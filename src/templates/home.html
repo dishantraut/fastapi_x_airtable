@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div class='col-md-6 mx-auto text-center py-5'>
+    <div class='py-5 my-5'>
 <br>
 {% if submitted_email and user_id and did_send %}
     <b>Thank You for joining :-</b>
@@ -22,5 +23,7 @@
     <br><br>
     <input type="submit" value="Join waitlist">
 </form>
+</div>
+</div>
 
 {% endblock %}
